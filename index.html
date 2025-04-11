@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <title > Mystery Meal Game</title>
+        <link rel='icon' href='./Meal Game favicon.webp' >
+        <link rel='stylesheet' href='./style.css'>
+    </head>
+    <body>
+        <div class='container'>
+            <h1>Welcome to the Mystery Meal Game !</h1>
+            <button class='start-button'> Start Game 😝</button>
+            <div class='hidden' id='game-container'>
+                <div class='ingredients' id = 'ingredients'>
+                <p>Know you're food ?
+                    <br>
+                    Well guess the cuisine or dish
+                </p>
+                <input type ='text' id = 'guess-input' placeholder='e.g Pizza or Italian'>
+                <button id='guess-button'>Submit</button>
+                </div>
+            <div class='hidden-results' id='results container'>
+                <h2 id='result-message'></h2>
+                <p id='players-score'>Your score: <span id='score-display'></span>/3</p>
+                <p id='additional-result-message'></p>
+                <div id="meal-summary"></div>
+                <button id="restart-btn">Restart Game</button>
+            </div>
+            </div>
+        </div>
+        <script src='./script.js'></script>
+    </body>
+</html>
