@@ -9,7 +9,7 @@ const guessBtn=document.getElementById('guess-button')
 const guessFeedback=document.getElementById('feedback')
 const resultDiv=document.getElementById('results-container')
 const resultMessage=document.getElementById('result-message')
-const scoreDisplay=document.getElementById('players-score')
+const scoreDisplay=document.getElementById('score-display')
 const bonusMessage=document.getElementById('additional-result-message')
 const mealScoreDiv=document.getElementById('meal-summary')
 const restartBtn=document.getElementById('restart-btn')
@@ -57,7 +57,7 @@ function getMealIngredients(meal) {
     ingredientsDiv.appendChild(ul);  
 }
 
-
+//Get instructions 
 function getMealInstructions(meals){
     instructDiv.innerHTML=''; // Clear previous instructions
     const instructions = document.createElement('ol');
@@ -214,7 +214,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 } else {
                     displayResults();
                 }
-            }, 1000);
+            }, 3000);
         }
     });
 

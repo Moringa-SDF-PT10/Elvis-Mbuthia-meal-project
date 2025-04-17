@@ -8,11 +8,14 @@
         <link rel='stylesheet' href='./style.css'>
     </head>
     <body>
+        <!-- main div  -->
         <div class='container'>
+            <!-- start-screen -->
             <div id='start-screen'>
             <h1>Welcome to the Mystery Meal Game !</h1>
             <button id='start-button'> Start Game 😝</button>
             </div>
+            <!-- game-screen -->
             <div class='hidden' id='game-container'>
                 <img id='meal-image' src='' alt='Meal Image'>
                 <div class='ingredients' id = 'ingredients'></div>
@@ -24,7 +27,8 @@
                 <input type ='text' id = 'guess-input' placeholder='e.g Beef or Italian' required>
                 <button id='guess-button'>Submit</button>
                 <p id='feedback'></p>
-            </div>    
+            </div>  
+            <!-- results-container   -->
             <div class='hidden' id='results-container'>
                 <h2 id='result-message'></h2>
                 <p id='players-score'>Your score: <span id='score-display'></span>/3</p>
