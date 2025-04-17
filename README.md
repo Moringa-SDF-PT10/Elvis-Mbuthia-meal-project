@@ -21,7 +21,7 @@ Some prior knowledge of the following is recommended to fully understand and mod
 - HTML - for structuring
 
 ## Live Demo
-Wanna try it out on your own [click here]()
+Wanna try it out on your own [click here](https://moringa-sdf-pt10.github.io/Elvis-Mbuthia-meal-project/)
 
 ## How to play 
 
